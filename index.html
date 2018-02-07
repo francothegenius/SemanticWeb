@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Francisco Amézquita</title>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.js"></script>
+    </head>
+    <style>
+        body{
+            background-color: #99e6e6;
+        }
+    </style>
+    <body>
+        <h1>Francisco Amézquita
+            <a href="https://www.facebook.com/mariano.amezquita" target="_blank" class="ui circular facebook icon button">
+                 <i class="facebook icon"></i>
+            </a>
+            <a href="https://twitter.com/francothegenius" target="_blank" class="ui circular twitter icon button">
+                 <i class="twitter icon"></i>
+            </a>
+            <a href="https://github.com/francothegenius" target="_blank" class="ui circular github icon button">
+                 <i class="github icon"></i>
+            </a>
+            <br></br>
+            <button class="massive ui animated button">
+                <span class="visible content">Hello......</span>
+                <span class="hidden content">Hola</span>
+        </h1>
+        <div class="ui shape">
+            <div class="sides">
+                    <div class="active side">
+                        <img class="ui medium circular left floated bordered image" src="pp.jpg"><br></br><br></br>
+                        <p>
+                        <h3>   I consider myself a common and imaginary genius. My passion is the music as well as photography and programming.
+                        I always think how I can give the best of my day to day  and develop myself in all possible areas, especially in former
+                        sciences in order to improve my environment and the environment of others.
+                        </p>
+                        </h3>
+                                <div class="ui small red button" id="translate">Spanish</div>
+                    </div>
+                    <div class="side">
+                        <img class="ui medium circular left floated bordered image" src="pp.jpg"><br></br><br></br>
+                        <p>
+                        <h3> Me considero un genio común e imaginario. Mi pasión es la música, así como la fotografía y la programación. Siempre pienso
+                            en cómo puedo dar lo mejor de mi día a día y desarrollarme en todas las áreas posibles, especialmente en las ciencias
+                            exactas para mejorar mi entorno y el de los demás.
+                        </p>
+                        </h3>
+                                <div class="ui small red button" id="translate1">English</div>
+                    </div>
+            </div>
+        </div>
+        <script>
+            $('#translate').click(function(){
+                $('.ui.shape').shape('flip over');
+            });
+            $('#translate1').click(function(){
+                $('.ui.shape').shape('flip over');
+            });
+        </script>
+    <div class="ui two column very relaxed grid">
+  <div class="column">
+    <p>
+        <h2>
+        <font face="Helvetica" color="navy">About me</font>
+    </h2>
+</p>
+        <div class="ui shape">
+            <div class="sides">
+                    <div class="active side">
+                            <p>
+                            <h3>
+                            <font face="Franklin" color="black">My full name is Francisco Mariano Amézquita Ramos. I was born in Guadalajara, Jalisco, Mexico
+                                but raised in Lagos de Moreno, Jalisco and some years in Virginia, USA. Since I was a kid, I´ve been interested in the way computers
+                                work, technically speaking, the logical perspective, being that one of the main reasons why I study Computer Science Engineering at Tecnológico
+                                de Monterrey, Campus Guadalajara.
+                            </font>
+                            </h3>
+                            </p>
+                        <div class="ui small red button" id="about">Spanish</div>
+                    </div>
+                    <div class="side">
+                        <p>
+                        <h3>
+                        <font face="Franklin" color="black">Mi nombre completo es Francisco Mariano Amézquita Ramos. Nací en Guadalajara, Jalisco, México pero me
+                                crié en Lagos de Moreno, Jalisco y algunos años en Virginia, Estados Unidos. Desde que era un niño, he estado interesado la manera las
+                                 computadoras funcionan, técnicamente hablando, la perspectiva lógica, siendo esa una de las principales razones por las que estudio Ingeniería en Sistemas Computacionales
+                                 en el Tecnológico de Monterrey, Campus Guadalajara.
+                        </font>
+                        </h3>
+                        </p>
+                                <div class="ui small red button" id="about1">English</div>
+                    </div>
+            </div>
+        </div>
+  </div>
+  <div class="ui vertical divider">
+    and
+  </div>
+  <div class="column">
+        <p>
+            <h2>
+            <font face="Helvetica" color="navy">Hobbies</font>
+        </h2>
+        </p>
+        <div class="ui shape">
+            <div class="sides">
+                    <div class="active side">
+                            <p>
+                            <h3>
+                            <font face="Franklin" color="black">
+                                <li>Music</li>
+                                <li>Programming</li>
+                                <li>Photography</li>
+                                <li>Technology</li>
+                                <li>More music</li>
+                                <li>Reading</li>
+                            </font>
+                            </h3>
+                            </p>
+                        <div class="ui small red button" id="hobbies">Spanish</div>
+                    </div>
+                    <div class="side">
+                        <p>
+                        <h3>
+                        <font face="Franklin" color="black">
+                            <li>Música</li>
+                            <li>Programación</li>
+                            <li>Fotografía</li>
+                            <li>Tecnología</li>
+                            <li>Más música</li>
+                            <li>Leer</li>
+                        </font>
+                        </h3>
+                        </p>
+                                <div class="ui small red button" id="hobbies1">English</div>
+                    </div>
+            </div>
+        </div>
+  </div>
+<script>
+$('#about').click(function(){
+    $('.ui.shape').shape('flip left');
+});
+$('#about1').click(function(){
+    $('.ui.shape').shape('flip right');
+});
+$('#hobbies').click(function(){
+    $('.ui.shape').shape('flip left');
+});
+$('#hobbies1').click(function(){
+    $('.ui.shape').shape('flip right');
+});
+</script>
+<footer>
+  <p><br></br><br></br>Made by: Francisco Amézquita</p>
+</footer>
+    </body>
+</html>
